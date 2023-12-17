@@ -1,5 +1,8 @@
 import asyncio
 
+# silly example where we maintain a local and global counter, the latter is incremented across 
+# async tasks.
+
 class _Counter:
     _CLS_COUNTER = 0 
     def __init__(self) -> None:
